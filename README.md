@@ -5,3 +5,4 @@
 사용하는 데이터는 `dataset` 디렉터리에 있습니다.
 
 ### [1장 데이터 분석 시작하기](./chapter01/README.md)
+### [2장 데이터 전처리](./chapter02/README.md)
