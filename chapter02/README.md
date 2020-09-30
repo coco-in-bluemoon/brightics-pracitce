@@ -15,3 +15,16 @@
 
 [실습파일: 데이터 변환](./데이터%20변환.json)
 ![](./images/workflow_데이터변환.png)
+
+### [3. 파생변수의 생성](./notes/파생변수의%20생성.md)
+- Add Function Column(s)와 Query Executor로 파생변수 생성
+
+[실습파일: 파생변수의 생성](./파생변수의%20생성.json)
+
+![](./images/workflow_파생변수의생성.png)
+
+- 숫자, 문자, 날짜를 위한 SQLite 함수
+
+[실습파일: 함수의 활용](./함수의%20활용.json)
+
+![](./images/workflow_함수의활용.png)
