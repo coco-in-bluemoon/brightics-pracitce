@@ -9,9 +9,9 @@
 ![](./images/workflow_데이터정제.png)
 
 ### [2. 데이터 변환](./notes/데이터%20변환.md)
-- 결측값의 종류: MCAR, MAR, MNAR
-- 이상값을 판단하는 방법으로 Tukey 방법
-- 결측값과 이상값은 분석가의 판단에 따라 제거 및 대체
+- 연속형 변수 변환: Min-Max Normalization과 Standardization
+- 범주형 변수 변환: One Hot Encoding
+- 시계열 변수 변환: Lead와 Lag
 
 [실습파일: 데이터 변환](./데이터%20변환.json)
 ![](./images/workflow_데이터변환.png)
