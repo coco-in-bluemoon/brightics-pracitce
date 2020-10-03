@@ -45,3 +45,15 @@
 ### [5. 데이터 결합 및 형태 변환](./notes/데이터%20결합%20및%20형태%20변환.md)
 - 결합을 위한 함수: Join, Bind Row Column
 - 형태 변환을 위한 함수: Pivot, Unpivot
+
+[실습파일: 행 결합](./행%20결합.json)
+
+![](./images/workflow_행결합.png)
+
+[실습파일: 열 결합](./열%20결합.json)
+
+![](./images/workflow_열결합.png)
+
+[실습파일: 데이터 형태 변환](./데이터%20형태%20변환.json)
+
+![](./images/workflow_데이터형태변환.png)
