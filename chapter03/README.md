@@ -32,24 +32,16 @@
      -  카이제곱 검정은 두 범주형 변수의 독립성을 검정한다.
 
 [실습파일: 단일표본 t 검정](./단일표본%20t%20검정.json) 
-<p align="right">
-  <img width="200" height="" src="./images/workflow_단일표본t검정.png"/>
-</p>
+<img width="200" height="" src="./images/workflow_단일표본t검정.png"/>
 
 [실습파일: 짝지어진 t 검정](./짝지어진%20t-검정.json) 
-<p align="right">
-  <img width="200" height="" src="./images/workflow_짝지어진t검정.png"/>
-</p>
+<img width="200" height="" src="./images/workflow_짝지어진t검정.png"/>
 
 [실습파일: 독립표본 t 검정](./독립표본%20t%20겁정.json) 
-<p align="right">
-  <img width="200" height="" src="./images/workflow_독립표본t검정.png"/>
-</p>
+<img width="200" height="" src="./images/workflow_독립표본t검정.png"/>
 
 [실습파일: 카이제곱 검정](./카이제곱%20검정.json) 
-<p align="right">
-  <img width="200" height="" src="./images/workflow_카이제곱검정.png"/>
-</p>
+<img width="200" height="" src="./images/workflow_카이제곱검정.png"/>
 
 ### [4. 분산분석](./notes/분산분석.md)
 
