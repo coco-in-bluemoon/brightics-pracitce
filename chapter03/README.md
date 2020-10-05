@@ -36,7 +36,20 @@
 |<img width="200" height="" src="./images/workflow_단일표본t검정.png"/>|<img width="200" height="" src="./images/workflow_짝지어진t검정.png"/>|<img width="200" height="" src="./images/workflow_독립표본t검정.png"/>|<img width="200" height="" src="./images/workflow_카이제곱검정.png"/>|
 
 ### [4. 분산분석](./notes/분산분석.md)
+- ANOVA 분석은 그룹 간의 평균 차이를 분산을 활용하여서 분석
+- 일원분산분석은 하나의 범주형 변수에 대해서, 이원분산분석은 두개의 범주형 변수에 대해서 검정한다
+- 분산분석을 통해 귀무가설을 기각하면, Duncan, Tukey, Scheffe 방법으로 그룹간 평균 비교
+
+|[실습파일: 분산분석](./분산분석.json)|
+|-|
+|<img width="200" height="" src="./images/workflow_분산분석.png"/>|
 
 ### [5. 상관분석](./notes/상관분석.md)
+- 상관계수의 종류로 피어슨 상관계수, 스피어만 상관계수, 켄달 상관계수가 있다
+
+
+|[실습파일: 상관분석](./상관분석.json)|[실습파일: 켄달 상관분석](./켄달%20상관분석.json)|
+|-|-|
+|<img width="200" height="" src="./images/workflow_상관분석.png"/>|<img width="200" height="" src="./images/workflow_켄달상관분석.png"/>|
 
 ### [6. 시계열분석](./notes/시계열분석.md)
