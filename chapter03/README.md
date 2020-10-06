@@ -53,3 +53,35 @@
 |<img width="200" height="" src="./images/workflow_상관분석.png"/>|<img width="200" height="" src="./images/workflow_켄달상관분석.png"/>|
 
 ### [6. 시계열분석](./notes/시계열분석.md)
+- 평활법의 종류
+  1. 이동평균평활법 - 단순 평균
+  2. 지수이동평균평활법(EWMA) - 가중 평균
+  3. 단순지수평활법 - EWMA와 동일
+  4. 이중지수평활법 - 자료평활 + 추세평활
+  5. 삼중지수평활법 - 자료평활 + 추세평활 + 계절변화평활
+- 분해법
+  1. Additive Model - Z = T(rend) + C(ycle) + S(eason) + R(esidual)
+  2. Multiplicative Model - Z = T(rend) · C(ycle) · S(eason) · R(esidual)
+  - 진폭이 일정한 경우 Additive Model을 사용하고, 진폭이 점차 증가하는 경우 Multiplicative Model를 사용한다
+- ACF와 PACF로 확률적 시계열 모형 파악
+  - ACF는 현재 시점과 이전 시점의 상관관계를 파악
+  - PACF는 현재 시점과 이전 시점의 상관관계를 파악하되, 두 시점 이외의 종속성을 배제하고 순수하게 두 시점의 상관관계를 파악
+- 확률적 시계열 모형은 시계열 데이터가 확률적 구조에서 나오는 경우
+  - 정상성 여부에 따라서 정상 시계열 자료와 비정상 시계열 자료로 구분
+  - 정상성: 시간이 흐르지만 확률 구조가 변하지 않는다. 시간에 따른 평균, 분산, 공분산의 변화로 파악(약한 정상성)
+- 주요 시계열 확률 모형
+  1. 백색 소음 과정(white noise process) - 랜덤하게 데이터 생성
+  2. 확률 보행 과정(random walk process) - 이전 시점에 관측값에다가 랜덤한 잔차 추가
+  3. 이동 평균 과정(moving average process) - 이전 시점의 에러가 현재 시점의 관측값을 결정
+  4. 자기 회귀 과정(auto regressive process) - 이전 시점의 관측값이 현재 시점의 관측값을 결정
+  5. 자기 회귀 이동 평균 과정(ARMA, auto regressive moving average process) - AR + MA. AR과 MA의 쌍대성을 활용
+  6. 자기 회귀 누적 이동 평균 과정(ARIMA) - 비정상정 모델의 확률적 추세를 파악하기 위한 차분(differencing) 도입한 모델
+- 시계열 데이터의 거리
+  1. 유클리디언 거리
+  2. 상관 유사도
+  3. Dynamic Time Warping
+  4. SAX(Symbolic Aggregated Approximation)
+
+|[실습파일: EWMA와 Time Series Decomposition](./EWMA와%20Time%20Series%20Decomposition.json)|[실습파일: ARIMA와 Holt-Winters](./ARIMA와%20Holt-Winters.json)|
+|-|-|
+|<img width="200" height="" src="./images/workflow_EWMA.png"/>|<img width="300" height="" src="./images/workflow_ARIMA.png"/>|
