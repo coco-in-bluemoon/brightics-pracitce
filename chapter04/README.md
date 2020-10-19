@@ -40,7 +40,7 @@
 
 |[실습파일: 단순선형회귀](./단순선형회귀.json)|[실습파일: 다중선형회귀와 벌점화회귀](./다중선형회귀와%20벌점화회귀.json)|
 |-|-|
-|<img width="200" height="" src="./images/workflow_단순선형회귀.png"/>||<img width="200" height="" src="./images/workflow_벌점다중회귀분석.png"/>|
+|<img width="200" height="" src="./images/workflow_단순선형회귀.png"/>|<img width="200" height="" src="./images/workflow_벌점다중회귀분석.png"/>|
 |
 
 ### [6. 분류](./notes/분류.md)
@@ -48,8 +48,22 @@
 
 |[실습파일: 로지스틱 회귀](./로지스틱%20회귀.json)|[실습파일: 나이브 베이즈](./나이브%20베이즈.json)|
 |-|-|
-|<img width="200" height="" src="./images/workflow_로지스틱회귀.png"/>||<img width="200" height="" src="./images/workflow_나이브베이즈.png"/>|
+|<img width="200" height="" src="./images/workflow_로지스틱회귀.png"/>|<img width="200" height="" src="./images/workflow_나이브베이즈.png"/>|
 |
 
 ### [7. 회귀 및 분류](./notes/회귀%20및%20분류.md)
+- KNN: 가장 가까운 K개의 데이터를 보고 분류
+- SVN: Margin Maximization하는 Hyperplane을 찾아서 분류
+- Decision Tree: 노드가 분기점에 되어서 특정 변수가 특정 조건을 만족할 때마다 트리의 깊이기 깊어짐
+  - 최종적으로 불순도가 낮아지는 방향으로 트리 성장
+  - 불순도를 평가하기 위해서 Entropy와 Gini 계수 활용
+- 배깅(랜덤 포레스트): 다양한 트리를 구축하고 결합하여서 최종 클래스 결정
+- 부스팅: 선행 모델에서 틀린 정도를 후행 모델이 예측하여서 점진적으로 성능 개선
+  - 가중치 기반의 부스팅과 오차 기반의 부스팅 존재
+
+|[실습파일: KNN](./KNN.json)|[실습파일: SVM](./SVM.json)|[실습파일: 의사결정나무](./의사결정나무.json)|[실습파일: 랜덤포레스트](./랜덤포레스트.json)|[실습파일: 부스팅](./부스팅.json)|
+|-|-|-|-|-|
+|<img width="200" height="" src="./images/workflow_KNN.png"/>|<img width="200" height="" src="./images/workflow_svm.png"/>|<img width="200" height="" src="./images/workflow_의사결정나무.png"/>|<img width="200" height="" src="./images/workflow_랜덤포레스트.png"/>|<img width="200" height="" src="./images/workflow_부스팅.png"/>|
+
+
 ### [8. 추천](./notes/추천.md)
