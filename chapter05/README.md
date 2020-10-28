@@ -8,5 +8,5 @@
 
 |[실습파일: 기본 텍스트 분석](기본%20텍스트%20분석.json)|[실습 파일: TF-IDF](TF-IDF.json)|[실습 파일: LDA](LDA.json)|
 |-|-|-|
-|<img width="200" height="" src="./images/workflow_기본텍스트분석.png"/>|<img width="200" height="" src="./images/workflow_tfidf.png"/>|<img width="200" height="" src="./images/workflow_lda.png"/>|
+|<img width="" height="" src="./images/workflow_기본텍스트분석.png"/>|<img width="" height="" src="./images/workflow_tfidf.png"/>|<img width="" height="" src="./images/workflow_lda.png"/>|
 
