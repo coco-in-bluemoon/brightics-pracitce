@@ -10,3 +10,12 @@
 |-|-|-|
 |<img width="" height="" src="./images/workflow_기본텍스트분석.png"/>|<img width="" height="" src="./images/workflow_tfidf.png"/>|<img width="" height="" src="./images/workflow_lda.png"/>|
 
+
+### 2. 파이썬 스크립트
+- 파이썬 스크립트 문법을 brightics에서 실행할 수 있다
+- scikit-learn, matplotlib와 같은 외부 라이브러리를 사용할 수 있다
+  - 외부 라이브러리를 사용할 수 없는 경우 brightics.function 내부 모듈로 대부분의 기능들이 구현되어 있다
+
+|[실습파일: 파이썬 스크립트](파이썬%20스크립트.json)|
+|-|
+|![](images/workflow_파이썬스크립트.png)|
